@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+html, body
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color:#EDEAE5
+}
+
+.signin
+{
+position: absolute;
+width: 142px;
+height: 24px;
+left: 197px;
+top: 32px;
+text-decoration: none;
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #000000;
+}
+
+.register
+{
+  position: absolute;
+width: 142px;
+height: 30px;
+left: 523px;
+top: 28px;
+text-decoration: none;
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #000000;
+}
+
+.register-click
+{
+position: absolute;
+width: 142px;
+height: 30px;
+left: 523px;
+top: 128px;
+text-decoration: none;
+font-family: Arvo, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+display: flex;
+text-align: center;
+letter-spacing: -0.015em;
+color: #5F9A89;
+}
+
+.register-button
+{
+ background: #FCE181;
+position: absolute;
+width: 230px;
+height: 70px;
+left: 250px;
+top: 500px;
+border-style: none;
+color: white;
+font-size: 20px;
+letter-spacing: 2px;
+font-weight: normal;
+cursor: pointer;
+border-radius: 25px;
+padding: 20px; 
+}
+
+.email
+{
+	position: absolute;
+width: 411px;
+height: 82px;
+left: 340px;
+top: 152px;
+font-family: Arvo;
+font-style: normal;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #000000;
+}
+
+.enter-register-email
+{
+background-color: #F8F5F5;;
+position: absolute;
+width: 502px;
+left: 125px;
+top: 225px;
+border-style: none; 
+border-radius: 25px;
+padding: 20px; 
+}
+
+.uname
+{
+	position: absolute;
+width: 411px;
+height: 82px;
+left: 320px;
+top: 250px;
+font-family: Arvo;
+font-style: normal;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #000000;
+}
+
+.enter-register-uname
+{
+background-color: #F8F5F5;;
+position: absolute;
+width: 245px;
+left: 246px;
+top: 330px;
+border-style: none; 
+border-radius: 25px;
+padding: 20px; 
+}
+
+.password
+{
+	position: absolute;
+
+width: 411px;
+height: 82px;
+left: 326px;
+top: 355px;
+font-family: Arvo;
+font-style: normal;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #000000;
+}
+
+.enter-register-pswrd
+{
+background-color: #F8F5F5;;
+position: absolute;
+width: 245px;
+left: 242px;
+top: 430px;
+border-style: none; 
+border-radius: 25px;
+padding: 20px; 
+}
+
+img
+{
+display: grid;
+position: absolute;
+height: 900px;
+right: 0px;
+width: 600px;
+}
+
+.gotoe
+{
+
+position: absolute;
+left: 239px;
+top: 580px;
+text-decoration: none;
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #5F9A89;
+
+}

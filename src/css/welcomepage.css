@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+#body
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color:#EDEAE5;
+}
+
+.welcometo
+{
+position: absolute;
+width: 411px;
+height: 82px;
+left: 600px;
+top: 300px;
+font-family: "Arvo";
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #000000;
+}
+
+.handc
+{
+position: absolute;
+width: 376px;
+height: 66px;
+left: 570px;
+top: 367px;
+font-family: "Arvo";
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 47px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #026670;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #154C52;
+  font-family:"Arvo";
+  font-size: 20px;
+  line-height: 6px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

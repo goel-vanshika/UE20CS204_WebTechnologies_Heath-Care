@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+html, body
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color:#EDEAE5
+}
+
+.hac
+{
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 15px;
+padding: 2px;
+text-align: center;
+background: #026670;
+color: white;
+}
+
+.shoptop
+{
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 47px;
+padding: 1px;
+text-align: center;
+background: #5F9A89;
+color: white;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 254px;
+  background-image: url("/Users/vanshikagoel/project/src/components/adidas.jpg");
+  text-align:right; 
+}
+
+
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 254px;
+  background-image: url("/Users/vanshikagoel/project/src/components/reebok.jpg");
+  text-align:right; 
+}
+
+.column3 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 254px;
+  background-image: url("/Users/vanshikagoel/project/src/components/nike.jpg");
+  text-align:right; 
+}
+
+.column4 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 254px;
+  background-image: url("/Users/vanshikagoel/project/src/components/decathlon.jpg");
+  text-align:right; 
+}
+
+.column5 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 254px;
+  background-image: url("/Users/vanshikagoel/project/src/components/fitbit.jpg");
+  text-align:right; 
+}
+
+.column6{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 254px;
+  background-image: url("/Users/vanshikagoel/project/src/components/curefit.jpg");
+  text-align:right; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.total
+{
+  font-family: "Arvo";
+  font-size:16px;
+}

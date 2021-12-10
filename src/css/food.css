@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+.Diet
+{
+  font-family:"Arvo";
+  font-family:26px;
+}
+.rect{
+  position: absolute;
+width: 1500px;
+height: 1500px;
+left: 55px;
+top: 100px;
+padding:20px;
+}
+
+.table {
+  font-family: "Arvo";
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+.foodtop
+{
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 47px;
+padding: 1px;
+text-align: center;
+background: #5F9A89;
+color: white;
+}

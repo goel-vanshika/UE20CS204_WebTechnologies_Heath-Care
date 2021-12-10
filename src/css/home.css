@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+#body
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color:#EDEAE5;
+}
+
+.welcome
+{
+position: absolute;
+width: 411px;
+height: 82px;
+left: 290px;
+top: 300px;
+font-family: "Arvo";
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #000000;
+}
+
+.hc
+{
+position: absolute;
+width: 376px;
+height: 66px;
+left: 257px;
+top: 367px;
+font-family: "Arvo";
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 47px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #026670;
+}
+
+
+.img
+{
+display: grid;
+position: absolute;
+height: 900px;
+right: 0px;
+width: 600px;
+}
+
+
+.signin
+{
+position: absolute;
+width: 142px;
+height: 24px;
+left: 197px;
+top: 32px;
+text-decoration: none;
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #000000;
+}
+
+.register
+{
+  position: absolute;
+width: 142px;
+height: 30px;
+left: 523px;
+top: 28px;
+text-decoration: none;
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+color: #000000;
+}

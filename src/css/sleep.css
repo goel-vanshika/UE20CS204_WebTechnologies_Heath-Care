@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+.body
+{
+  
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  
+  background: #EDEAE5;
+}
+.musicbox
+{
+  position: absolute;
+width: 468px;
+height: 100px;
+left: 118px;
+top: 110px;
+
+background: #5F9A89;
+border-radius: 30px;
+position: absolute;
+width: 500px;
+height: 60px;
+left: 70px;
+top: 100px;
+padding:7px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.music
+{
+  position:absolute;
+  left: 180px;
+  top: 188px;
+  padding:7px;
+
+}
+.tos
+{
+  position: absolute;
+width: 468px;
+height: 34px;
+left: 106px;
+top: 280px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.68);
+
+
+}
+.tosbox
+{
+  position: absolute;
+width: 422px;
+height: 68px;
+left: 80px;
+top: 380px;
+background: #F8F5F5;
+border-radius: 30px;
+}
+.tow
+{
+  position: absolute;
+width: 468px;
+height: 34px;
+left: 106px;
+top: 450px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 30px;
+
+color: rgba(0, 0, 0, 0.68);
+}
+.towbox
+{
+  position: absolute;
+width: 422px;
+height: 68px;
+left: 80px;
+top: 560px;
+
+background: #F8F5F5;
+border-radius: 30px;
+}
+.qos
+{
+  position: absolute;
+width: 468px;
+height: 34px;
+left: 100px;
+top: 630px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 30px;
+
+color: rgba(0, 0, 0, 0.68);
+}
+.qosbox
+{
+  
+  position: absolute;
+  width: 422px;
+  height: 68px;
+  left: 74px;
+  top: 750px;
+  
+  background: #F8F5F5;
+  border-radius: 30px;
+}
+
+.sub
+{
+  position: absolute;
+width: 349px;
+height: 99px;
+left: 900px;
+top: 800px;
+
+background: #FCE181;
+border-radius: 30px;
+color: #FFFFFF;
+
+    background: #FCE181;
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    left: 930px;
+    top: 700px;
+    border-style: none;
+    color: white;
+    font-family: "Arvo";
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 20px; 
+}
+.sleeptop
+{
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 47px;
+padding: 1px;
+text-align: center;
+background: #5F9A89;
+color: white;
+}
+
+.yt
+{
+  position: absolute;
+width: 690px;
+height: 460px;
+left: 720px;
+top: 188px;
+
+background: #BAB6AF;
+border-radius: 30px;
+}
