@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 html, body
 {
   margin: 0;
@@ -10,7 +9,7 @@ html, body
 .signin
 {
 position: absolute;
-width: 142px;
+ width: 142px;
 height: 24px;
 left: 197px;
 top: 32px;
@@ -45,33 +44,14 @@ letter-spacing: -0.015em;
 color: #000000;
 }
 
-.register-click
-{
-position: absolute;
-width: 142px;
-height: 30px;
-left: 523px;
-top: 128px;
-text-decoration: none;
-font-family: Arvo, sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 40px;
-display: flex;
-text-align: center;
-letter-spacing: -0.015em;
-color: #5F9A89;
-}
-
-.register-button
+.sign-up-button
 {
  background: #FCE181;
 position: absolute;
 width: 230px;
 height: 70px;
-left: 250px;
-top: 500px;
+left: 287px;
+top: 690px;
 border-style: none;
 color: white;
 font-size: 20px;
@@ -82,94 +62,148 @@ border-radius: 25px;
 padding: 20px; 
 }
 
-.email
+.fname
 {
-	position: absolute;
-width: 411px;
-height: 82px;
-left: 340px;
-top: 152px;
+    position: absolute;
+width: 306px;
+height: 34px;
+left: 338px;
+top: 100px;
+
 font-family: Arvo;
 font-style: normal;
-font-size: 20px;
-line-height: 30px;
-display: flex;
-align-items: center;
-letter-spacing: -0.015em;
-color: #000000;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.68);
 }
 
-.enter-register-email
+.fname-input
 {
-background-color: #F8F5F5;;
+    background-color: #F8F5F5;;
 position: absolute;
-width: 502px;
-left: 125px;
-top: 225px;
+width: 302px;
+left: 256px;
+top: 170px;
+border-style: none; 
+border-radius: 25px;
+padding: 20px; 
+}
+.lname
+{
+    position: absolute;
+width: 306px;
+height: 34px;
+left: 338px;
+top: 210px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.68);
+}
+
+.lname-input
+{
+    background-color: #F8F5F5;;
+position: absolute;
+width: 302px;
+left: 256px;
+top: 280px;
 border-style: none; 
 border-radius: 25px;
 padding: 20px; 
 }
 
+.mail
+{
+    position: absolute;
+width: 306px;
+height: 34px;
+left: 365px;
+top: 320px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.68);
+}
+
+.mail-input
+{
+    background-color: #F8F5F5;;
+position: absolute;
+width: 302px;
+left: 256px;
+top: 390px;
+border-style: none; 
+border-radius: 25px;
+padding: 20px; 
+}
 .uname
 {
-	position: absolute;
-width: 411px;
-height: 82px;
-left: 320px;
-top: 250px;
-font-family: Arvo;
-font-style: normal;
-font-size: 20px;
-line-height: 30px;
-display: flex;
-align-items: center;
-letter-spacing: -0.015em;
-color: #000000;
-}
-
-.enter-register-uname
-{
-background-color: #F8F5F5;;
-position: absolute;
-width: 245px;
-left: 246px;
-top: 330px;
-border-style: none; 
-border-radius: 25px;
-padding: 20px; 
-}
-
-.password
-{
-	position: absolute;
-
-width: 411px;
-height: 82px;
-left: 326px;
-top: 355px;
-font-family: Arvo;
-font-style: normal;
-font-size: 20px;
-line-height: 30px;
-display: flex;
-align-items: center;
-letter-spacing: -0.015em;
-color: #000000;
-}
-
-.enter-register-pswrd
-{
-background-color: #F8F5F5;;
-position: absolute;
-width: 245px;
-left: 242px;
+    position: absolute;
+width: 306px;
+height: 34px;
+left: 338px;
 top: 430px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.68);
+}
+
+.uname-input
+{
+    background-color: #F8F5F5;;
+position: absolute;
+width: 302px;
+left: 256px;
+top: 500px;
 border-style: none; 
 border-radius: 25px;
 padding: 20px; 
 }
 
+.pswrd
+{
+    position: absolute;
+width: 306px;
+height: 34px;
+left: 338px;
+top: 540px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.68);
+}
+
+.pswrd-input
+{
+    background-color: #F8F5F5;;
+position: absolute;
+width: 302px;
+left: 256px;
+top: 610px;
+border-style: none; 
+border-radius: 25px;
+padding: 20px; 
+}
 img
 {
 display: grid;
@@ -183,8 +217,8 @@ width: 600px;
 {
 
 position: absolute;
-left: 239px;
-top: 580px;
+left: 276px;
+top: 750px;
 text-decoration: none;
 font-family: Arvo;
 font-style: normal;
@@ -196,4 +230,4 @@ align-items: center;
 letter-spacing: -0.015em;
 color: #5F9A89;
 
-}
+} 
